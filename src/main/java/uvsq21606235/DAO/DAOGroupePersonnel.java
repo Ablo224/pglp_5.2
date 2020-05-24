@@ -19,6 +19,7 @@ public class DAOGroupePersonnel implements DAO<GroupePersonnel>, Serializable{
 		listDAO = new ArrayList<GroupePersonnel>();
 	}
 
+	
 
 	@Override
 	public void ajout(GroupePersonnel Object) {
